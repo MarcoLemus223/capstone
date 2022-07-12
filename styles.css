@@ -17,10 +17,11 @@ header {
     color:white;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 90px;
+    margin-top: 70px;
     justify-content: center;
     align-items: center;
     display: flex;
+    padding-top: 2px;
 }
 
 .logo {
