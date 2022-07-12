@@ -1,5 +1,7 @@
 const answerBtn = document.getElementById('btn')
 const textBox = document.querySelector('#inputText')
+const answerDiv = document.getElementById('answerBox')
+const answerEl = document.createElement('span')
 
 const getAnswer = (event) => {
     event.preventDefault()
@@ -26,8 +28,6 @@ const getQuestion = () => {
 }
 
 function displayAlert(data) {
-    const answerDiv = document.getElementById('answerBox')
-    const answerEl = document.createElement('span')
     answerEl.innerHTML=data
     answerEl.classList.add('answer')
     answerDiv.appendChild(answerEl)
